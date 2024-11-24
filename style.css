@@ -38,10 +38,7 @@ caption, th{text-align: left;}
 a:focus {outline:none;}
 
 
-/* ========================================
-	フロートの解除
-========================================= */
-
+/* フロートの解除　*/
 .clearfix:after {
   content: ".";
   display: block;
@@ -49,12 +46,7 @@ a:focus {outline:none;}
   clear: both;
   visibility: hidden;
 }
-
-
-
-/* ========================================
-	全体設計
-========================================= */
+/* 　全体設計　 */
 body {
 	color:#555;
 	font-size: 14px;
@@ -64,11 +56,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-
-/* ========================================
-    ラッパー
-========================================= */
+/*  wrapper */
 div#wrapper {
     width: 960px;
     height: auto;
@@ -77,9 +65,7 @@ div#wrapper {
 
 
 
-/* ========================================
-    ヘッダー
-========================================= */
+/*  ヘッダー */
 header {
     width: 960px;
     height: 99px;
@@ -108,26 +94,13 @@ nav ul li a {
     font-size: 14px;
     font-weight: bold;
 }
-
-
-
-/* ========================================
-    メイン画像
-========================================= */
+/*  MAIN画像　 */
 div#mainimage {
     width: 960px;
     height: 300px;
     margin-bottom: 30px;
 }
-
-
-
-
-
-
-/* ========================================
-    レフト
-========================================= */
+/* left */
 div#left {
     width: 280px;
     height: auto;
@@ -164,14 +137,7 @@ a#icon_blog {
 a#icon_voice {
     background: url(images/_i_icon_16044_icon_160440_256.png) no-repeat 14px center;
 }
-
-
-
-
-
-/* ========================================
-    ライト
-========================================= */
+/* right */
 div#right {
     width: 650px;
     height: auto;
@@ -210,15 +176,7 @@ div#right dd:nth-of-type(odd) {
 div.clearfix {
     clear: both;
 }
-
-
-
-
-
-
-/* ========================================
-    フッター
-========================================= */
+/*  footer */
 .footer{
     background-color:#ceccf3;
     height:270px;
